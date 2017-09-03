@@ -12,4 +12,6 @@ config_ecr_repos:
   dockerproductionaws/microtrader-quote: {}
   dockerproductionaws/squid: {}
   dockerproductionaws/ntp: {}
-  dockerproductionaws/codebuild: {}
+  dockerproductionaws/codebuild:
+    ro_services:
+      - codebuild.amazonaws.com
