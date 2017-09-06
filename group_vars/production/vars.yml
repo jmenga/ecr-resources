@@ -10,6 +10,7 @@ config_ecr_repos:
   dockerproductionaws/microtrader-dashboard: {}
   dockerproductionaws/microtrader-portfolio: {}
   dockerproductionaws/microtrader-quote: {}
+  dockerproductionaws/microtrader-specs: {}
   dockerproductionaws/squid: {}
   dockerproductionaws/ntp: {}
   dockerproductionaws/codebuild:
