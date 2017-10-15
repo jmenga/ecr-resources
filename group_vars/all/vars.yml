@@ -1,6 +1,3 @@
----
-# Add global settings here
-
-# aws-cloudformation role settings
-cf_stack_name: "ecr-resources"
-cf_stack_template: "templates/ecr.yml.j2"
+### Global settings
+Stack.Name: ecr-resources
+Stack.Template: templates/ecr.yml.j2
